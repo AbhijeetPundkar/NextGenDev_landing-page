@@ -84,11 +84,14 @@ flex  justify-center pb-10
             Get Started
           </button>
         </div>
-
         {/* TODO: Add IMAGE */}
-        <video className="rounded-xl md:w-2/5 p-4 md:p-0 " autoPlay muted loop>
-          <source src="/content/video-2.mp4" type="video/mp4" />
-        </video>
+        <Image
+          className="rounded-xl md:w-2/5 pl-10 md:p-0"
+          src="/ecom.jpg"
+          alt="Description of the image"
+          width={500} // Replace with the actual width of the image
+          height={300} // Replace with the actual height of the image
+        />
       </div>
 
       <div className="flex-col items-center justify-center">
@@ -120,7 +123,7 @@ flex  justify-center pb-10
             >
               <div
                 className="
-                            text-gray-600 text-3xl font-bold
+                            text-gray-700 text-3xl font-bold
                             "
               >
                 <Image
@@ -132,18 +135,14 @@ flex  justify-center pb-10
                 />
                 <div>
                   <div
-                    className="text-2xl pb-4 text-gray-300
+                    className="text-2xl pb-4 text-gray-700
                                     bg-clip-text
-                                    text-transparent
-
-                                    
-                                    
                                     "
                   >
                     {feature.name}
                   </div>
 
-                  <div className="text-gray-300 bg-clip-text text-transparent text-lg">
+                  <div className="text-gray-700 bg-clip-text  text-lg">
                     {feature.description}
                   </div>
                 </div>

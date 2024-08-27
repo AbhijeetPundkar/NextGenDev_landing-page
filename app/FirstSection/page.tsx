@@ -16,9 +16,8 @@ const FirstSection = () => {
             </div>
 
             <p className="text-lg md:text-xl md-10
-            text-gray-300
+            text-gray-700
             bg-clip-text
-            text-transparent
             font-bold
             
             "

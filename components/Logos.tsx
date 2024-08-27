@@ -87,12 +87,9 @@ const Carousel = () => {
         className="items-center justify-center flex text-3xl font-bold md:pb-10 px-10
         bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500
         bg-clip-text
-        text-transparent
-
-        
         "
       >
-        More than 100+ brands have built their business with Bird Software
+        More than 100+ brands have built their business with FastDev
       </div>
 
       <div className="grid grid-cols-3 p-4 md:flex">
