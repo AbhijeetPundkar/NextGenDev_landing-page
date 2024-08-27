@@ -4,13 +4,13 @@ const ThirdSection = () => {
   return (
     <div className="flex pt-10 pb-1 flex-col md:flex-row md:justify-evenly">
       <div className="flex-col md:flex-row gap-6 md:px-10 flex">
-        <div className="md:w-2/3 w-full">
+        <div className="md:w-3/4 w-full">
           <Image
             className="rounded-xl"  // Removed conflicting classes
             src="/ecom2.png"
             alt="Description of the image"
-            width={1000}  // Adjust width to a reasonable value
-            height={400}  // Adjust height to a reasonable value
+            width={1200}  // Adjust width to a reasonable value
+            height={600}  // Adjust height to a reasonable value
             layout="responsive"  // Makes the image responsive
           />
         </div>
@@ -28,20 +28,9 @@ const ThirdSection = () => {
           </div>
 
           <div className="md:px-20 space-y-6 flex-col items-center justify-center">
-            <div className="text-lg pt-10 flex gap-4">
-              <Image
-                src="/images/icon-store.png"
-                alt="feature-1"
-                width={70}
-                height={70}
-              />
-              <div className="flex flex-col gap-2 text-gray-700">
-                Choose from a variety of store templates to get started. And
-                customize your store to fit your brand.
-              </div>
-            </div>
+            
 
-            <div className="flex-col">
+            <div className="flex-col pt-4">
               <div className="text-lg flex items-center gap-5 text-gray-700">
                 <Image
                   src="/images/icon-product.png"
@@ -71,20 +60,7 @@ const ThirdSection = () => {
               </div>
             </div>
 
-            <div className="flex-col">
-              <div className="text-lg flex items-center gap-5 text-gray-700">
-                <Image
-                  src="/images/icon-shield.png"
-                  alt="feature-1"
-                  width={70}
-                  height={70}
-                />
-                <div>
-                  Best in class security to protect your data and your
-                  customers.
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
